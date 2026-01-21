@@ -1,6 +1,6 @@
 {
   "name": "@samuel-pro-tech/redis-helper",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A lightweight Redis helper for Node.js providing cache-aside utilities, Pub/Sub support, and managed Redis connections.",
   "keywords": [
     "redis",
