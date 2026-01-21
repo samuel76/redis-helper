@@ -4,7 +4,6 @@ A lightweight, production-ready Redis helper library for Node.js with built-in *
 
 ![npm version](https://img.shields.io/npm/v/@samuel-pro-tech%2fredis-helper)
 ![npm license](https://img.shields.io/npm/l/@samuel-pro-tech%2fredis-helper)
-![npm downloads](https://img.shields.io/npm/dw/@samuel-pro-tech%2fredis-helper)
 
 ## ✨ Features
 
