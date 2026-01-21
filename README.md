@@ -2,8 +2,8 @@
 
 A lightweight, production-ready Redis helper library for Node.js with built-in **cache-aside pattern**, **Pub/Sub support**, **circuit breaker protection**, and **automatic reconnection**.
 
-[![npm version](https://img.shields.io/npm/v/@aido-tech/redis-helper.svg)](https://www.npmjs.com/package/@aido-tech/redis-helper)
-[![license](https://img.shields.io/npm/l/@aido-tech/redis-helper.svg)](https://github.com/samuel76/redis-helper/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/@samuel-pro-tech/redis-helper.svg)](https://www.npmjs.com/package/@samuel-pro-tech/redis-helper)
+[![license](https://img.shields.io/npm/l/@samuel-pro-tech/redis-helper.svg)](https://github.com/samuel76/redis-helper/blob/main/LICENSE)
 
 ## ✨ Features
 
@@ -18,13 +18,13 @@ A lightweight, production-ready Redis helper library for Node.js with built-in *
 ## 📦 Installation
 
 ```bash
-npm install @aido-tech/redis-helper
+npm install @samuel-pro-tech/redis-helper
 ```
 
 ## 🚀 Quick Start
 
 ```javascript
-import { initRedis, getOrSet, setData, getData } from '@aido-tech/redis-helper'
+import { initRedis, getOrSet, setData, getData } from '@samuel-pro-tech/redis-helper'
 
 // Initialize Redis connection
 await initRedis({
@@ -254,7 +254,7 @@ const data = await getOrSet('key', () => fetchFromDatabase())
 
 ### Basic Caching
 ```javascript
-import { initRedis, getOrSet, setData, getData } from '@aido-tech/redis-helper'
+import { initRedis, getOrSet, setData, getData } from '@samuel-pro-tech/redis-helper'
 
 // Initialize
 await initRedis({ keyPrefix: 'myapp:', defaultTtl: 3600 })
@@ -392,7 +392,7 @@ REDIS_TTL=3600
 ```
 
 ```javascript
-import { initRedis } from '@aido-tech/redis-helper'
+import { initRedis } from '@samuel-pro-tech/redis-helper'
 
 await initRedis({
   url: process.env.REDIS_URL,
@@ -419,6 +419,6 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 🔗 Links
 
-- [npm package](https://www.npmjs.com/package/@aido-tech/redis-helper)
+- [npm package](https://www.npmjs.com/package/@samuel-pro-tech/redis-helper)
 - [GitHub repository](https://github.com/samuel76/redis-helper)
 - [Report issues](https://github.com/samuel76/redis-helper/issues)
