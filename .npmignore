@@ -1,0 +1,40 @@
+# Development files
+node_modules/
+.env
+.env.local
+.env.example
+
+# Test files
+test/
+tests/
+__tests__/
+*.test.js
+*.spec.js
+
+# Build files
+dist/
+build/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+
+# Git files
+.git/
+.gitignore
+
+# Documentation drafts
+docs/
+CONTRIBUTING.md
+CHANGELOG.md

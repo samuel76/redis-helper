@@ -1,0 +1,57 @@
+{
+  "name": "@aido-tech/redis-helper",
+  "version": "1.0.0",
+  "description": "A lightweight Redis helper for Node.js providing cache-aside utilities, Pub/Sub support, and managed Redis connections.",
+  "keywords": [
+    "redis",
+    "cache",
+    "cache-aside",
+    "pubsub",
+    "nodejs",
+    "redis-client",
+    "distributed-cache",
+    "circuit-breaker"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Aido Tech",
+    "email": "samuel.silalahi@aido.id"
+  },
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samuel76/redis-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samuel76/redis-helper/issues"
+  },
+  "homepage": "https://github.com/samuel76/redis-helper#readme",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run test"
+  },
+  "dependencies": {
+    "redis": "^4.7.0" 
+  },
+  "peerDependencies": {
+    "redis": ">=4.0.0"
+  },
+  "devDependencies": {}
+}
